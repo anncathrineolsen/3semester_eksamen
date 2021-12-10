@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Indiana Jones</title>
+    <script src="main.js" defer></script>
+</head>
+<!--<style></style>-->
+<body>
+   <div>
+       
+    <div class="speech"> Why does it have to be snakes? </div>
+    <p class="aligncenter">
+    <img class="picture" src="image/indi.png" alt="" srcset="" style="width: 100%;">
+    </p> 
+        
+
+
+    <p id="beskrivelse"> Samle alle guldbarene på under 45 sek. <br> Brug piltasterne til at styre Indiana Jones. <br> Rammer du slangerne eller ilden er du Game over. </p>
+   
+
+    
+    <div id="timer">
+    </div>
+    <div id="point">
+    </div>
+
+</div>
+
+   <center>
+        <canvas width="1200" height="650"></canvas>
+    </center>
+   
+    <audio id="myaudio" src="sound/indijones.mp3" autoplay loop></audio>
+
+    <script>
+        var audio = document.getElementById("myaudio");
+        audio.volume = 0.1;
+      </script>
+</body>
+</html>

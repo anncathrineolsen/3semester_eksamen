@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(172, 172, 172);
+}
+.member-dashboard{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+span{
+    font-weight: bold;
+}
+
+    .btn-chat{
+      border:none;
+      text-transform: uppercase;
+      font-size: 20px;
+      position: absolute;
+      bottom: 2%;
+      right: 2%;
+      width: 10%;
+      font-family:'Courier New', Courier, monospace;
+    }
+    #chatbox{
+      display:none;
+      border: 3px solid #f1f1f1;
+      background-color: #f1f1f1;
+      position: absolute;
+      bottom: 1%;
+      right: 2%;
+      z-index: 9;
+    }
+    .form-container{
+      max-width: 300px;
+      padding: 10px;
+      background: white;
+    }
+    .form-container textarea{
+      width: 100%;
+      min-height:200px;
+      border: none;
+      padding: 10px;
+      margin: 5px 0 22px 0;
+      background: #f1f1f1;
+      font-size: 15px;
+      font-family:'Courier New', Courier, monospace;
+    }
+    .form-container textarea:focus{
+      background: #ddd;
+      outline: none;
+    }
+    .btn-send, .btn-close{
+      font-size: 18px;
+      margin-bottom: 10px;
+      border: none;
+      width: 100%;
+      opacity: 0.9;
+      font-family:'Courier New', Courier, monospace;
+    }
+    .btn-send{
+        background-color: green;
+    }
+    .btn-close{
+        background-color: red;
+    }
+    h2{
+     font-size: 30px;
+      color:grey;
+      width: 93%;
+      text-align: center;
+      padding: 5px;
+      font-family:'Courier New', Courier, monospace;
+    }

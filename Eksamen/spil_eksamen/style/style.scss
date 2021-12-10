@@ -1,0 +1,6 @@
+//sass partials - flere mindre sass filer
+//denne fil "klister" dem alle sammen sammen.
+//navngives ved _filnavn.scss
+@import "reset"; // skal altid ligge øverst ellers bliver alt kode reset
+@import "variables";
+@import "base"; 

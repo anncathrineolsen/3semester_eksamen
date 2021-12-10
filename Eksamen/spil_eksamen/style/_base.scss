@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(70, 47, 22);
+}
+.aligncenter {
+    text-align: $my-align;
+    position: $my-position;
+    text-align: $my-align;
+    font-weight:$my-fontweight;
+    font-size: 50px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: -184px;
+    margin-left: $my-marginright;
+}
+canvas{
+    margin-top: 160px;
+}
+.pop-up{
+    z-index: 1;
+}
+#timer{
+    //position: $my-position;
+    font-family: $my-font;
+    float: right !important;
+    margin-top: 70px;
+    margin-bottom: -200px;
+    margin-right: $my-marginright;
+    text-align: right;
+    font-weight:$my-fontweight;
+    font-size: $my-fontsize;
+}
+#point{
+    //position: $my-position;
+    font-family: $my-font;
+    float: right !important;
+    margin-top: 30px;
+    margin-bottom: -200px;
+    margin-right: $my-marginright;
+    text-align: right;
+    font-weight:$my-fontweight;
+    font-size: $my-fontsize; 
+}
+#beskrivelse{
+    font-family: $my-font;
+    //margin-right: 2px;
+    float: right;
+    margin-top: 40px;
+    margin-right: $my-marginright;
+    text-align: right;
+    font-weight: 300;
+    font-size: $my-px;
+    line-height:120%;
+    }
+canvas{
+    margin-top: 128px;   
+}
+.speech{
+    margin-top: $my-margin;
+    margin-left: $my-margin;
+    position: $my-position2;
+    font-family: $my-font;
+    font-size: 14px;
+    background: $my-color;
+    color: lightgrey;
+    padding: 20px;
+    max-width: 100px;
+    border-radius: 10px;
+}
+.speech::before {
+    position: $my-position2;
+    bottom: -10px;
+    left: 65%;
+    content: "";
+    border: 12px solid transparent;
+    border-top-color: $my-color;
+    border-bottom: 0;
+}
+.picture{
+    margin-left: $my-px;
+}
